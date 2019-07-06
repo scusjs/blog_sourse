@@ -22,7 +22,7 @@ description: 这是一篇拖延了整整一年的游记。上次写到从下决�
 
 下高速后就是下面这样的路了，嗯某@xqq 又开始激动了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561906304.jpg title:下雅康高速后的路 alt:下雅康高速后的路 %}
+{% qnimg Tibetan-Self-driving-Travel-Notes/1561906304.jpg title:下雅康高速后的路 alt:下雅康高速后的路 width:200 %}
 
 回头看一眼正在修建的雅康高速，不得不感慨基建狂魔的厉害，嗯我貌似又没有拍出来那种震撼的感觉，客官们自己脑补吧。
 
@@ -89,7 +89,7 @@ description: 这是一篇拖延了整整一年的游记。上次写到从下决�
 
 {% qnimg Tibetan-Self-driving-Travel-Notes/1561995865.jpg title:强行出镜 alt:强行出镜 %}
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561996105.jpg title:放大看大冰瀑布 alt:强行出镜 %}
+{% qnimg Tibetan-Self-driving-Travel-Notes/1561996105.jpg title:放大看大冰瀑布 alt:放大看大冰瀑布 %}
 
 因为中午就得下山了，并且早晨去太晚，所以并没有看到日照金山，非常的遗憾。因为昨天付了今天中午的午饭前，所以下山后再酒店吃了午饭就取车继续赶路了。在路上经过一个村堵了会儿车，路边一大堆卖水果的，乘机买了一大袋枇杷吃了个精光，然后开始翻第一座雪山（海拔4130米）。结果刚翻过雪山就遇到非常强的雨夹雪，然后车窗瞬间全是雾，去雾功能打开半天才起效，当时全是悬崖，吓蒙逼了。
 
@@ -136,7 +136,7 @@ description: 这是一篇拖延了整整一年的游记。上次写到从下决�
 
 在翻过4400多米的卡子拉山口后，遇到一段极其平坦，风景特别好的路，赶紧靠边开始拍照。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562432105.jpg title:@xqq拍的全景 alt:@xqq拍的全景 %}
+{% qnimg Tibetan-Self-driving-Travel-Notes/1562432326.jpg title:@xqq拍的全景 alt:@xqq拍的全景 %}
 
 路边有个佛塔，路两旁就是雪山，而且雪线就在比路高不了多少的地方，简直棒呆。嗯这里也是见识太短了，后来发现，上了高原这种地方简直不要太多。不过雪山旁边的佛塔，然后周围还没有人眼，还是很有韵味的。
 
