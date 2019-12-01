@@ -15,6 +15,7 @@ description: 这是一篇拖延了整整一年的游记。上次写到从下决�
 * [两人一车，说走就走的西藏自驾游（2）：走上318](/2019/07/07/Tibetan-Self-driving-Travel-Notes-2/)
 * [两人一车，说走就走的西藏自驾游（3）：到达拉萨](/2019/07/07/Tibetan-Self-driving-Travel-Notes-3/)
 * [两人一车，说走就走的西藏自驾游（4）：青藏出藏](/2019/07/07/Tibetan-Self-driving-Travel-Notes-4/)
+* [两人一车，说走就走的西藏自驾游（5）：青海归来](/2019/07/07/Tibetan-Self-driving-Travel-Notes-5/)
 
 这是一篇拖延了整整一年的游记。上次写到从下决心到到达成都的过程（[两人一车，说走就走的西藏自驾游（1）：西藏行之起源](/2019/06/23/Tibetan-Self-driving-Travel-Notes/#qrcode)），接下来就走上318了。btw，虽然忙完618但是不知道为嘛还是忙成狗，周末感觉得撸一篇不然感觉就要鸽掉了。
 
