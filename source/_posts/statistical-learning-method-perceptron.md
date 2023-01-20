@@ -23,8 +23,7 @@ $$sign(x)= \begin {cases} +1,x\geq 0\\\ -1,x\lt 0\end {cases}$$
 
 其中，$f(x)=w·x+b$叫做线性分类器，线性方程$f(x)=0$对应于特征空间中$R^n$的一个超平面 S，其中 w 是其法向量，b 是截距。S 将空间划分为两部分，位于两部分的点被分为正负两类，如图：
 
-{% qnimg statistical-learning-method/1477967448.jpg title: 感知机模型 alt:感知机模型 %}
-
+<img src="/images/statistical-learning-method/1477967448.jpg"  title="感知机模型" alt="感知机模型"/>
 # 感知机学习策略
 
 能够将数据集的正实例和负实例点完全正确的划分到超平面的两侧，则数据集为线性可分数据集，否则为线性不可分。感知机学习目标是求得一个能够将数据集正实例点和负实例点完全正确分开的分离超平面。

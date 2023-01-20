@@ -22,36 +22,28 @@ description: 这是一篇拖延了整整一年的游记。上次写到从下决�
 # Day4：成都-海螺沟（0516）
 在成都休息了一下后，算是正式踏上了进藏的路了（嗯睡了个自然醒）。第一件事就是被师姐提醒，我貌似有麻烦了？（垃圾iCloud照片死活加载不出来，开场就折腾我半天）
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561904380.jpg title:貌似我有麻烦了 alt:貌似我有麻烦了 width:200 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561904380.jpg" width="200" title="貌似我有麻烦了" alt="貌似我有麻烦了"/>
 昨天晚上纠结半天要不要去乐山去驻扎一晚，顺便偷偷溜回家一趟。因为之前想着的行程是青藏出藏，然后就一路开回北京，这次不回家的话估计得等我毕业完才能回去了。但是现在看来，貌似行程允许后面出藏后开回来一趟，因此就先定直接进藏了。昨晚计划好今天到海螺沟，今晚到明天上午玩，下午开始赶路，因此并不着急，因此十一点五十了刚出门还在成都吃午饭。吃完饭就出发啦。从成雅高速上高速，在高速在乐山-雅安的分路三叉路口还感慨了一下，半年没回家的我居然要绕开不会去啦（可惜只是因为浪）。在雅安拐上了修了一半的雅康高速，走了一大段车机上没有的路（这坚定了我要升级车机系统换导航的想法，恰好这几天车友会中大家说新的车机系统就要放出来了，看样子我得路上升级一把了，幸好我也不知道为啥我进藏会带个U盘）。经过了传说中的二郎山隧道，@xqq 给我科（de）普（se）了半天，我只发现隧道里面居然还有全景LED，非常的高大上，以至于我还跑去行车记录仪上下载了个照片。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561906955.jpg title:高大上的二郎山隧道 alt:高大上的二郎山隧道 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561906955.jpg"  title="高大上的二郎山隧道" alt="高大上的二郎山隧道"/>
 下高速后就是下面这样的路了，嗯某@xqq 又开始激动了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561906304.jpg title:下雅康高速后的路 alt:下雅康高速后的路 width:200 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561906304.jpg" width="200" title="下雅康高速后的路" alt="下雅康高速后的路"/>
 回头看一眼正在修建的雅康高速，不得不感慨基建狂魔的厉害，嗯我貌似又没有拍出来那种震撼的感觉，客官们自己脑补吧。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561906529.jpg title:正在修建的雅康高速 alt:正在修建的雅康高速 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561906529.jpg"  title="正在修建的雅康高速" alt="正在修建的雅康高速"/>
 过了大渡河大桥，从泸定县绕了一下，过了大渡河大桥就看到“海螺沟欢迎您”的标语了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561907363.jpg title:大渡河大桥 alt:大渡河大桥 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561907363.jpg"  title="大渡河大桥" alt="大渡河大桥"/>
 到了海螺沟入口的那个镇上（貌似是叫磨西镇）的时候已经比较晚了，然后在路上的时候就定了个酒店，所以就从景区大门旁边的路直接开去酒店了。这个酒店感觉大部分是木制的，踏上去咯吱咯吱响，然后最近不是旅游旺季，所以当晚就我们俩和老板娘她母亲在酒店，我们住三楼。房间阳台上可以直接去隔壁房间，然后阳台门还坏了，那天晚上打雷下雨，嗯我一点都没害怕（才怪）。不过酒店里做的家常菜不错，吃得很开心。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561907747.jpg title:海螺沟的酒店 alt:海螺沟的酒店 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561907747.jpg"  title="海螺沟的酒店" alt="海螺沟的酒店"/>
 和@xqq随便逛了下周围，快下雨了就溜回酒店了，我趁机解决那件头疼的事——打开。嗯万幸我带了电脑，然后，bingo，就在海螺沟上打了个香山旁边的卡，妈妈再也不担心我翘班啦！
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561908289.jpg title:模拟打卡 alt:模拟打卡 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561908289.jpg"  title="模拟打卡" alt="模拟打卡"/>
 然后开心的高速师姐我搞定这件事了，然后就被师姐给扼杀在摇篮里了，多谢师姐让我能继续做个诚实的好孩子🤣。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561908373.jpg title:模拟打卡想法被扼杀 alt:模拟打卡想法被扼杀 width:200 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561908373.jpg" width="200" title="模拟打卡想法被扼杀" alt="模拟打卡想法被扼杀"/>
 嗯，就这样，放心大胆的开始浪了，明天打卡海螺沟。
 
 以下是这一天的花费：
@@ -74,35 +66,26 @@ description: 这是一篇拖延了整整一年的游记。上次写到从下决�
 
 刚进景区，空气非常棒，景色也很棒，然后登山步道给人一种九寨的感觉（嗯大夏天的越往上爬越冷。。这点非常像）。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561993473.jpg title:海螺沟的景 alt:海螺沟的景 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561993473.jpg"  title="海螺沟的景" alt="海螺沟的景"/>
 登山步道沿路都是郁郁葱葱的树林，远处是斑驳的雪山（嗯我居然用“斑驳”形容雪山，对不起各位语文老师），呼吸着湿润而又清新的空气，但是贼累，并且走着热停下来冷。走了一个多小时前面一个大大的山谷里黑黢黢的，居然就是冰川？（这里是黑人问号脸）？好的先不吐槽冰川，一会儿说。在冰川山谷的边上筹到个监测站，看到是中科院的监测站，居然会莫名其妙的亲切。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561994219.jpg title:冰川位移监测站 alt:冰川位移监测站 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561994219.jpg"  title="冰川位移监测站" alt="冰川位移监测站"/>
 对的这一大坨跟千层雪一样的冻泥就是传说中的存在了数十万年的冰川，和想象中的完全不一样好吧。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561994830.jpg title:冰川 alt:冰川 %}
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561995004.jpg title:一号营地旁边的冰川全景 alt:一号营地旁边的冰川全景 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561994830.jpg"  title="冰川" alt="冰川"/><img src="/images/Tibetan-Self-driving-Travel-Notes/1561995004.jpg"  title="一号营地旁边的冰川全景" alt="一号营地旁边的冰川全景"/>
 在冰川（还是愿意叫它冰泥）旁边（貌似是一号营地）玩了一会儿太冷了，我们就回头去坐缆车准备上三号营地从上往下看冰川了。缆车上看冰川感觉挺酷，能看到悬崖数十万年间被冰川磨平的痕迹。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561995435.jpg title:缆车上看冰川 alt:缆车上看冰川 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561995435.jpg"  title="缆车上看冰川" alt="缆车上看冰川"/>
 坐缆车很快到达了三号营地（海拔约3km），从三号营地望向冰川，才真正感受到宏伟壮观，原谅词语匮乏的我到观景台第一句是“卧槽”。嗯对的图片上又成功的没有展现出来了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561995775.jpg title:三号营地看一号冰川 alt:三号营地看一号冰川 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561995775.jpg"  title="三号营地看一号冰川" alt="三号营地看一号冰川"/>
 那我们换个角度来看冰川有多么的壮观并且强行出镜一下。当时正在拍举世无双的大冰瀑布，这是传说中的比黄果树瀑布大出十余倍（高和宽都一千多米），国内最大的冰瀑布。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561995865.jpg title:强行出镜 alt:强行出镜 %}
-
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561996105.jpg title:放大看大冰瀑布 alt:放大看大冰瀑布 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561995865.jpg"  title="强行出镜" alt="强行出镜"/>
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561996105.jpg"  title="放大看大冰瀑布" alt="放大看大冰瀑布"/>
 因为中午就得下山了，并且早晨去太晚，所以并没有看到日照金山，非常的遗憾。因为昨天付了今天中午的午饭前，所以下山后再酒店吃了午饭就取车继续赶路了。在路上经过一个村堵了会儿车，路边一大堆卖水果的，乘机买了一大袋枇杷吃了个精光，然后开始翻第一座雪山（海拔4130米）。结果刚翻过雪山就遇到非常强的雨夹雪，然后车窗瞬间全是雾，去雾功能打开半天才起效，当时全是悬崖，吓蒙逼了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1561997522.jpg title:翻第一座雪山 alt:翻第一座雪山 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1561997522.jpg"  title="翻第一座雪山" alt="翻第一座雪山"/>
 下雪山后的行程倒是很顺利，七点多到达新都桥酒店，天还没黑，停好车放好行李就去找吃的了。这一路上各种家常川菜吃得我很开心。
 
 
@@ -120,51 +103,39 @@ description: 这是一篇拖延了整整一年的游记。上次写到从下决�
 
 忘了说，新都桥街道在翻修，所以小镇里全是坑坑洼洼的，昨晚比较晚了一路开到酒店，早晨起来从酒店看了下，感觉整个小镇都在修。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562429299.jpg title:正在翻修的新都桥 alt:正在翻修的新都桥 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562429299.jpg"  title="正在翻修的新都桥" alt="正在翻修的新都桥"/>
 从今天开始貌似就得不停的赶路了。现在照片都在nas上可以清楚看到了，这一天两个手机一个相机拍了460多张照片，之前其实每天也都拍了这么多，所以更新贼慢。新都桥海拔3600多米，昨晚吃完饭我出去走了走，然后@xqq 跟着走了一路就不行了，回酒店就开始吸氧🤣。早晨汽车发现背后的山上还有新都桥欢饮您的字样（瞎猜的），云不错山也很好看。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562429663.jpg title:山上的字 alt:山上的字 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562429663.jpg"  title="山上的字" alt="山上的字"/>
 刚出发时，发现路上骑行的人不太多，走了十几公里才发现骑行的大部队，好吧，虽然我们八点半就出发七点多就起床了，但是人家才叫一早起来。这边路不宽，双向一共两个车道，但是大家车速都不太快，因为骑行的人比较多所以开车也会特别注意，所以相对来说还算比较安全。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562430263.jpg title:骑行的人以及这边的路 alt:骑行的人以及这边的路 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562430263.jpg"  title="骑行的人以及这边的路" alt="骑行的人以及这边的路"/>
 在路上还顺便作死了一小下下。@xqq 开着的时候我没啥事手开始犯贱，然后想着带着U盘的就顺手在副驾上升级了把车机，从此就再也不用那坑爹的车机上八百年不更新的离线地图了，能用上高德了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562430463.jpg title:在路上升级车机系统 alt:在路上升级车机系统 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562430463.jpg"  title="在路上升级车机系统" alt="在路上升级车机系统"/>
 
 一路上景色很美，我居然想用“鲜”来形容。大概十点多的时候，发现开始各种回头线爬山了（此处同情骑行的人们），感觉这个回头线能赶上进九寨前的那十多道弯了。爬到山上一看，嗯的确是山路十八弯。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562430573.jpg title:山路十八弯 alt:山路十八弯 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562430573.jpg"  title="山路十八弯" alt="山路十八弯"/>
 山顶上是一个观景台，风景非常棒，然后有个“日照金山”的石碑，原来贡嘎雪山的日照金山需要在这里看，然而十点多了啥也没看到，不过能隐约看到贡嘎雪山。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562431186.jpg title:观景台的山 alt:观景台的山 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562431186.jpg"  title="观景台的山" alt="观景台的山"/>
 然后观景台上居然有卖烤肠的，@xqq开心得不行（看到这里我发现，我居然记漏了烤肠的钱！）。随便吃了点零食就继续赶路啦。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562432105.jpg title:打卡318 alt:打卡318 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562432105.jpg"  title="打卡318" alt="打卡318"/>
 在翻过4400多米的卡子拉山口后，遇到一段极其平坦，风景特别好的路，赶紧靠边开始拍照。对了这里补一句，在理塘吃午饭时候遇到一辆山东车，一辆北京车，山东车是一个七十多岁的大爷，自己开过来跑川藏线，和我们聊了一会儿，感觉贼霸气，希望我七十岁也能继续这么浪；北京车是一家三口，去准备分路去亚丁，老人大概50多的样子，很和蔼的一家。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562432326.jpg title:@xqq拍的全景 alt:@xqq拍的全景 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562432326.jpg"  title="@xqq拍的全景" alt="@xqq拍的全景"/>
 路边有个佛塔，路两旁就是雪山，而且雪线就在比路高不了多少的地方，简直棒呆。嗯这里也是见识太短了，后来发现，上了高原这种地方简直不要太多。不过雪山旁边的佛塔，然后周围还没有人眼，还是很有韵味的。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562432551.jpg title:一段很美的路 alt:一段很美的路 %}
-
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562432668.jpg title:雪山旁的佛塔 alt:雪山旁的佛塔 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562432551.jpg"  title="一段很美的路" alt="一段很美的路"/>
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562432668.jpg"  title="雪山旁的佛塔" alt="雪山旁的佛塔"/>
 下午三点多的时候下坡了很长一段路，到了一个叫做姊妹湖的高原湖，景色还行，就是有点冷，没有多停留，拍了几张游客照就撤了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562433168.jpg title:姊妹湖 alt:姊妹湖 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562433168.jpg"  title="姊妹湖" alt="姊妹湖"/>
 继续赶路，因为从新都桥（3630m）出发，下一个合理的住宿的地方就是巴塘（2580m)，这样海拔都不高，避免高反（后面下高原最后两晚都在4000m以上的地方住宿，我和@xqq就都有些高反了），但是巴塘出发就惨了，后面就都是3000m+了。路边到处是事故车，就被摆放在路边作为警示作用，山也慢慢变得更有特点了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1562433525.jpg title:路边的事故警示车与路边的山 alt:路边的事故警示车与路边的山 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1562433525.jpg"  title="路边的事故警示车与路边的山" alt="路边的事故警示车与路边的山"/>
 大概下午七点半到达巴塘城外的一个小酒店，是个农家院，有三四层楼，每层有六七个房间的样子，老板非常的热情，给我们介绍当地的人文地理，推荐下一站应该在哪里歇脚，以及需要注意什么，最后还送了我们一张自驾地图，很实用。嗯他家的酥油茶也超好喝。btw. 七点半了太阳还在天上，时差能非常明显的感觉到了。
 
 

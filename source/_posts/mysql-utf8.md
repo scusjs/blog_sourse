@@ -43,8 +43,7 @@ Incorrect string value: '\xF0\x9F\x98\x81' for column 'name' at row 1
 
 > UTF-8 is a variable width character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four 8-bit bytes.
 
-{% qnimg mysql-utf8/15323992645548.jpg %}
-
+<img src="/images/mysql-utf8/15323992645548.jpg"  title="" alt=""/>
 可以看出，MySQL中的utf8实质上不是标准的UTF8。MySQL中，utf8对每个字符最多使用三个字节来表示，所以一些emoji甚至是一些生僻汉字就存不下来了，比如“𡋾”。
 
 MySQL一直不承认这是一个bug，他们在2010年发布了“utf8mb4”字符集来绕过这个问题，在MySQL中，utf8mb4才应该是标准的utf8编码，并且官方很鸡贼的偷偷在最新的文档中加上了，算是认识到错误了吧：
@@ -55,9 +54,7 @@ MySQL一直不承认这是一个bug，他们在2010年发布了“utf8mb4”字�
 ## MySQL UTF8问题简史
 
 MySQL从4.1版本开始支持utf8，即2003年，但是现在的utf8标准（[RFC 3629](https://tools.ietf.org/html/rfc3629))是在其后发布的。MySQL在2002年3月28日的4.1预览版中使用了旧版的utf8标准（[RFC 2279](https://tools.ietf.org/html/rfc2279))，该标准最多支持每个字符6个字节，同年9月MySQL调整其[utf8字符集最多支持3字节](https://github.com/mysql/mysql-server/commit/43a506c0ced0e6ea101d3ab8b4b423ce3fa327d0)，而这个调整可能只是为了优化空间（05年前推荐使用CHAR类字段，而一个utf8的CHAR将会占用6字节长度）和时间性能（05年前在MySQL中使用CHAR字段会有更优的速度）。嗯可以在GitHub中看到大家对这个坑的吐槽：
-{% qnimg mysql-utf8/15324047157494.jpg %}
-{% qnimg mysql-utf8/15324047308992.jpg %}
-
+<img src="/images/mysql-utf8/15324047157494.jpg"  title="" alt=""/><img src="/images/mysql-utf8/15324047308992.jpg"  title="" alt=""/>
 但是这个字符编码发布出来，就不能轻易的修改，因为如果已经有用户开始使用了，就需要这些用户重新构建其数据库。
 
 怎么补救呢？在上面最新文档中可以看出，他们将当前的utf8作为utf8mb3的别名，并且在将来的某一天会把utf8重新作为utf8mb4别名，这样来解决这个多年的巨坑。
@@ -66,8 +63,7 @@ MySQL从4.1版本开始支持utf8，即2003年，但是现在的utf8标准（[RF
 
 略
 
-{% qnimg mysql-utf8/15324055064000.jpg %}
-
+<img src="/images/mysql-utf8/15324055064000.jpg"  title="" alt=""/>
 
 ## utf8mb4_unicode_ci 和 utf8mb4_general_ci
 

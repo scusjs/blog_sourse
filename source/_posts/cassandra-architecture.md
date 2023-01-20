@@ -35,8 +35,7 @@ Gossip每秒钟运行一次，与至多3个节点交换信息，这样所有节�
 
 为了将数据放入指定节点，并且避免热点问题，引入了一致性HASH。如图：
 
-{% qnimg 14733212957185/14733913102676.jpg title:一致性hash alt:一致性hash %}
-
+<img src="/images/cassandra-architecture/14733913102676.jpg"  title="一致性hash" alt="一致性hash"/>
 Hash的值空间$0\sim2^{32}$形成一个环，称为HASH空间环。对每一个节点计算其HASH值，可以用其ip地址或者其他机器信息，这将唯一确定其在HASH空间环上的位置。之后将数据key通过函数计算出其HASH值，并在圆环上唯一确定位置，在此位置沿着顺时针遇到的第一个节点就是该数据需要被放入的位置。
 
 在节点很多时，这能够保证数据分布均匀，但是如果节点很少，可能因为节点分布不均导致数据倾斜，因此在一致性HASH的技术上引入虚拟节点（vnode)概念。
@@ -45,16 +44,13 @@ Hash的值空间$0\sim2^{32}$形成一个环，称为HASH空间环。对每一�
 
 ## vnode
 
-{% qnimg 14733212957185/14734072658090.jpg title:vnode alt:vnode %}
-
+<img src="/images/cassandra-architecture/14734072658090.jpg"  title="vnode" alt="vnode"/>
 如图上半部分所示，是没有虚拟节点的情况。这时候如果某个节点挂掉了，只能从很少的几个节点中交换数据，将会造成节点负载太高，如图：
 
-{% qnimg 14733212957185/14734075656982.jpg extend:?imageView2/2/w/418 %}
-
+<img src="/images/cassandra-architecture/14734075656982.jpg" width="418" title="" alt=""/>
 但是如果将节点拆分成许多虚拟节点，如下半部分所示，某一个节点挂了，能够从其他很多节点那里去获取副本，将大大降低负载：
 
-{% qnimg 14733212957185/14734078747157.jpg extend:?imageView2/2/w/411 %}
-
+<img src="/images/cassandra-architecture/14734078747157.jpg" width="411" title="" alt=""/>
 ## 数据复制
 
 目前Cassandra提供了两种复制策略：
@@ -103,22 +99,19 @@ cassandra-topology.properties中配置，迁移完成后记得删除。
 # 写流程
 ## 单节点写示例
 
-{% qnimg 14733212957185/14733849232892.jpg %}
-
+<img src="/images/cassandra-architecture/14733849232892.jpg"  title="" alt=""/>
 如果所示是一个对单数据中心的写数据。副本因子为3，表示每一行数据有3个副本，放在三个不同的机器上。一致性设置为ONE，表示查询的时候有一个节点副本返回即可。
 
 首先客户端向集群中任意一个节点发送查询命令，这个节点充当客户端和读写节点间的协调者（coordinator）。Coordinator根据集群配置决定请求分发到环中具体哪些节点上。由于副本因子为3，所以有三个节点保存副本，假设为1、3、6。数据分发到三个节点并写入，因为一致性为ONE，所以任何一个节点写入完成则返回，其他节点在后台继续写入直到完成。
 
 ## 多数据中心的写实例
 
-{% qnimg 14733212957185/14734127912685.jpg %}
-
+<img src="/images/cassandra-architecture/14734127912685.jpg"  title="" alt=""/>
 同上，但是多数据中心时，请求的数据中心的Coordinator将请求分发到其他数据中心的Coordinator执行操作。
 
 # 读流程
 
-{% qnimg 14733212957185/14734131292169.jpg %}
-
+<img src="/images/cassandra-architecture/14734131292169.jpg"  title="" alt=""/>
 读请求可分为两个步骤进行，一个是读数据返回客户端，一个是后台自动校验数据的一致性。协调者首先与一致性级别确定的所有副本联系，被联系的节点返回请求的数据，若多个节点被联系，则来自各replica的row会在内存中作比较，若不一致，则协调者使用含最新数据的副本向客户端返回结果。同时，协调者在后台联系和比较来自其余拥有对应row的副本的数据，若不一致，会向过时的副本发写请求用最新的数据进行更新。这一过程叫read repair。
 
 # 内部实现
@@ -131,16 +124,13 @@ cassandra-topology.properties中配置，迁移完成后记得删除。
 
 通过在多个同级节点创建数据的多个副本保证可靠性和容错。表是非关系型的，无需过多额外工作来维护关联的表的完整性，因此写操作较关系型数据库快很多。
 
-{% qnimg 14733212957185/14735649834122.jpg %}
-
+<img src="/images/cassandra-architecture/14735649834122.jpg"  title="" alt=""/>
 先将数据写进内存中的数据结构memtable，同时追加到磁盘中的commitlog中。表使用的越多，对应的memtable应越大，cassandra动态的为memtable分配内存，也可自己手工指定。memtable内容超出指定容量后memtable数据（包括索引）被放进将被刷入磁盘的队列，可通过memtable_flush_queue_size配置队列长度。若将被刷入磁盘的数据超出了队列长度，cassandra会锁定写。memtable表中的数据由连续的I/O刷进磁盘中的SSTable，之后commit log被清空。每个表有独立的memtable和SSTable。
 
 ## 更新
 
-{% qnimg 14733212957185/14735652254246.jpg %}
-
-{% qnimg 14733212957185/14735651935180.jpg %}
-
+<img src="/images/cassandra-architecture/14735652254246.jpg"  title="" alt=""/>
+<img src="/images/cassandra-architecture/14735651935180.jpg"  title="" alt=""/>
 不直接在磁盘中原地更新而是先在memtable进行所有的更新。最后更新内容被刷入磁盘存储在新的SSTable中，仅当column的时间戳比既存的column更新时才覆盖原来的数据。
 
 ## 删除
@@ -158,19 +148,16 @@ cassandra-topology.properties中配置，迁移完成后记得删除。
 
 Cassandra推荐使用SSD，以partition key读/写，消除了关系型数据库中复杂的查询。
 
-{% qnimg 14733212957185/14736459048469.jpg %}
-
+<img src="/images/cassandra-architecture/14736459048469.jpg"  title="" alt=""/>
 首先检查Bloom filter，每个SSTable都有一个Bloomfilter，用以在进行任何磁盘I/O前检查请求的partition key对应的数据在SSTable中存在的可能性。若数据很可能存在，则检查Partition key cache(Cassandra表partition index的缓存)，之后根据index条目是否在cache中找到而执行不同步骤：
 
 1. 找到。从compression offset map中查找拥有对应数据的压缩块。从磁盘取出压缩的数据，返回结果集。
 2. 未找到。搜索Partition summary（partition index的样本集）确定index条目在磁盘中的近似位置。从磁盘中SSTable内取出index条目。从compression offset map中查找拥有对应数据的压缩块。从磁盘取出压缩的数据，返回结果集。
 
-{% qnimg 14733212957185/14736460775048.jpg %}
-
+<img src="/images/cassandra-architecture/14736460775048.jpg"  title="" alt=""/>
 由insert/update过程可知，read请求到达某一节点后，必须结合所有包含请求的row中的column的SSTable以及memtable来产生请求的数据。
 
-{% qnimg 14733212957185/14736461515400.jpg %}
-
+<img src="/images/cassandra-architecture/14736461515400.jpg"  title="" alt=""/>
 
 例如，要更新包含用户数据的某个row中的email 列，cassandra并不重写整个row到新的数据文件，而仅仅将新的email写进新的数据文件，username等仍处于旧的数据文件中。上图中红线表示Cassandra需要整合的row的片段用以产生用户请求的结果。为节省CPU和磁盘I/O，Cassandra会缓存合并后的结果，且可直接在该cache中更新row而不用重新合并。
 

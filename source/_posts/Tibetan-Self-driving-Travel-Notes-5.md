@@ -24,21 +24,16 @@ description: 这是一篇拖延了一年半的游记。青海归来，该结束�
 
 决定好了就出发了，出格尔木不久，就进入大漠的感觉，路边很荒凉，但是路超级棒，而且还没啥车。在马路上各种角度各种拍，茫茫大漠就我们自己的感觉真的超级棒（嗯一会儿就知道多吓人了）。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575189449.jpg title:荒漠中各种拍 alt:荒漠中各种拍 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575189449.jpg"  title="荒漠中各种拍" alt="荒漠中各种拍"/>
 继续开了不久，路边的大漠慢慢变了样，呈现出雅丹地貌的特征，大自然的鬼斧神工，很是漂亮。
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575189911.jpg title:雅丹地貌 alt:雅丹地貌 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575189911.jpg"  title="雅丹地貌" alt="雅丹地貌"/>
 开到下午四点多，穿过了茫茫大漠中的一个锂电池工厂小镇，终于到了水上雅丹，结果居然围起来了在修建了，而且现在啥都没开放，只有个非常low的旅馆，并且工作人员态度非常不好(=@__@=)。当然不能就这么挨宰，怀着一丝希望，想着绕远点应该能找到没有围起来的地方，然而想多了。
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575189928.jpg title:远远的拍了下水上雅丹 alt:远远的拍了下水上雅丹 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575189928.jpg"  title="远远的拍了下水上雅丹" alt="远远的拍了下水上雅丹"/>
 结果绕着绕着就绕了太远，前面是一片（咸水）湖，景色还不错的，路把湖水分成了两块，两个颜色还不一样，湖面不时飞过几只水鸟。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575190433.jpg title:荒漠中的湖 alt:荒漠中的湖 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575190433.jpg"  title="荒漠中的湖" alt="荒漠中的湖"/>
 这时候已经下午六点多了，决定不住在水上雅丹就得往回撤了，准备在前面路过的随便哪个地方露营一宿，感觉也挺棒。往回在水上雅丹外面觉得景还是很棒，把车上的小蜘蛛侠拿出来拍了几张
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575190701.jpg title:水上雅丹外的小蜘蛛 alt:水上雅丹外的小蜘蛛 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575190701.jpg"  title="水上雅丹外的小蜘蛛" alt="水上雅丹外的小蜘蛛"/>
 继续往回开，不一会儿晚上八点半了，天开始黑了，路边停下来吃了个自热火锅（对的，从北京一路带来的自热火锅），边吃边和@xqq聊，今晚就这里搭帐篷了，感觉还不错。吃完饭天就黑了，不知道哪里传来声狼嚎，卧槽不行啊，两人开始打退堂鼓了。想想还是命要紧，感觉收拾收拾上车跑路吧。收拾完撤的时候才觉得这决定真的很明智，随着天黑下来，四处非常安静，我一个晚上都敢自己在乱坟堆乱窜的人居然怕黑了，感觉黑暗在往体内渗，瘆得慌。车上摇滚开到最大声，车窗紧闭，都不敢停下来上厕所，不敢换开，一路飙到德令哈。
 
 
@@ -62,15 +57,12 @@ description: 这是一篇拖延了一年半的游记。青海归来，该结束�
 德令哈住了一宿，和@xqq商量是时候撤啦。准备直接开回成都。刚好有个德马高速刚修通不久，准备走这条高速回去。
 
 新高速的确新，没啥车，没啥人，服务区空的，路边居然还有野骆驼，超级原生态。
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575191911.jpg title:德马高速 alt:德马高速 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575191911.jpg"  title="德马高速" alt="德马高速"/>
 服务区没人也没吃的，所以大中午的，终于用上了带了一路的煮面套装神器了（其实还带着米啥的，然而煮粥得等太久了，所以煮面了）。
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575192007.jpg title:高速上煮泡面 alt:高速上煮泡面 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575192007.jpg"  title="高速上煮泡面" alt="高速上煮泡面"/>
 吃过泡面沿着这条高速跑了很久很久很久，也没看到加油站，异常心慌。随着油表上的读数越来越小，越来越慌，一路尽可能保持匀速，下坡也不太敢踩刹车。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575192345.jpg title:路边的山与寺 alt:路边的山与寺 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575192345.jpg"  title="路边的山与寺" alt="路边的山与寺"/>
 最惨的是，路上信号还不好，周围也没什么车，寻思着要是天黑了又没油了，到时候就找个安全的地方搭帐篷，天亮了拦车求助了。到了天快黑的时候终于到了个小县城加上油，油箱总共60L容量，加了59升多的油，太悬了。
 
 以下是这一天的花费：
@@ -86,12 +78,10 @@ description: 这是一篇拖延了一年半的游记。青海归来，该结束�
 # Day16 久治-都江堰（0528）
 出发不久就进入大四川地界啦，从阿坝进川，在四川界附近就遇到一场雪，景色很美，南国的雪原来也能很美。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575192713.jpg title:阿坝的雪 alt:阿坝的雪 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575192713.jpg"  title="阿坝的雪" alt="阿坝的雪"/>
 慢慢的，海拔越来越低，景色也越来越熟悉了。告别最后一片雪山，不久终于到都江堰了。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575192894.jpg title:最后一片雪山 alt:最后一片雪山 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575192894.jpg"  title="最后一片雪山" alt="最后一片雪山"/>
 晚上在都江堰吃了个鱼，真的超级棒，还在地图上留了个收藏，下次决定再去吃。
 
 以下是这一天的花费：
@@ -111,15 +101,14 @@ description: 这是一篇拖延了一年半的游记。青海归来，该结束�
 
 在都江堰玩了大半天，嗯就不写都江堰游记啦，放几张图片吧。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575193181.jpg title:都江堰 alt:都江堰 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575193181.jpg"  title="都江堰" alt="都江堰"/>
 都江堰还是一如既往的气势磅礴，前段时间刷《大秦帝国》顺便了解了下李冰父子和都江堰，这次来又是不一样的感觉。
 
 是的又没去成青城山，上次和发小去都江堰，准备第二天去青城山，然而睡到了下午。这次真的是时间不够了，下午回乐山还得保养车，然后各种吃。车子在北京保养了一遍开出来的，开了这么远该保养了。
 
 4s店依然很黑，宰了我一把。出了4s点我半小时就回去了，修车小哥一句咋又来了呢。嗯是的，出去刚上高速就被撞了，所以又回来了。不过还好，也就是反光镜掉了，漆磨掉了一些，其他啥事没有。
 
-<video width="50%" height="400" src="http://cdn.liexing.top/static/images/Tibetan-Self-driving-Travel-Notes/1575193573.mp4" controls="controls">
+<video width="50%" height="400" src="/images/Tibetan-Self-driving-Travel-Notes/1575193573.mp4" controls="controls">
  `<video>` 不可用，该换浏览器啦.
 </video>
 
@@ -139,13 +128,12 @@ description: 这是一篇拖延了一年半的游记。青海归来，该结束�
 
 终于修好车啦，然后在家呆了半个月也差不多了，再呆几天就得被赶出家门了😁。去机场接@xqq 然后就出发直接开去杭州啦。 结果刚上高速不久，正开始打瞌睡了，就遇到前面的面包车爆胎，瞬间吓醒了。成乐高速对我也太不友好了吧。
 
-<video width="50%" height="400" src="http://cdn.liexing.top/static/images/Tibetan-Self-driving-Travel-Notes/1575194188.mp4" controls="controls">
+<video width="50%" height="400" src="/images/Tibetan-Self-driving-Travel-Notes/1575194188.mp4" controls="controls">
  `<video>` 不可用，该换浏览器啦.
 </video>
 然后前面高速封路，各种绕道，绕去眉山转了一大圈才到成都，趁着@xqq飞机还早，找本科辅导员@辉哥 约饭去。久违的串串，回家半个月在家贼健康贼养生，馋死我了。跟@辉哥聊了很久，本科以来读研三年的所得与成长，希望能继续加油，不负所望。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575194455.jpg title:久违的串串 alt:久违的串串 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575194455.jpg"  title="久违的串串" alt="久违的串串"/>
 
 以下是这一天的花费：
 
@@ -163,12 +151,10 @@ description: 这是一篇拖延了一年半的游记。青海归来，该结束�
 
 到重庆进城各种堵，到酒店收拾好已经快天黑了。去打开了网红李子坝轻轨站，也去体验了神奇的3D城市，@xqq还体验了一把中辣锅底的火锅（嗯非常不明智，小朋友们不要模仿）然后拉了一天。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575194803.jpg title:谜一样的重庆 alt:谜一样的重庆 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575194803.jpg"  title="谜一样的重庆" alt="谜一样的重庆"/>
 回酒店打车也体会了一把神奇的重庆。在解放碑打了个车，师傅离我们800多米，开了快20分钟终于绕过来接到我们，然后直线不到两公里的路，开了20多分钟终于到了，师傅说自己就是重庆人，但是也总是迷路，嗯这很重庆。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575195107.jpg title:谜一样的路 alt:谜一样的路 width:200 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575195107.jpg" width="200" title="谜一样的路" alt="谜一样的路"/>
 以下是这一天的花费：
 
 名称 | 金额 | 备注
@@ -219,6 +205,5 @@ description: 这是一篇拖延了一年半的游记。青海归来，该结束�
 
 全程总共花了1.5w左右，一共用了21天，途径了北京、河北、山西、陕西、四川、西藏、青海、重庆、湖北、安徽、江西（跑了一小段也算）是一个省市。全程轨迹记录是9600多千米，但是中间偶尔忘记开路径记录，加上在回乐山后开了很多没记录，所以理论上路程超过1w千米了。很充实的旅程，在那个5月以前，我觉得我可能这辈子都没有空去自驾一趟西藏，更别提从北京过去，到杭州的这1w公里。这一趟很累，但是收获也很多。谨以此文，纪念那年在路上的大半个月时光。
 
-{% qnimg Tibetan-Self-driving-Travel-Notes/1575195797.jpg title:自驾数据 alt:自驾数据 %}
-
+<img src="/images/Tibetan-Self-driving-Travel-Notes/1575195797.jpg"  title="自驾数据" alt="自驾数据"/>
 如果需要gps轨迹数据，请和我联系。

@@ -60,10 +60,14 @@ ps. 毕竟你的是高大上的17带bar rmbp。。。然而，bar的操作我都
 
 1. 首先 macOS 是基于 Unix 的发行版，所以文件结构、命令上，都和 *nix 系统非常像（但是非常多坑）。
 
-2. 点击 Dock 上的 Finder（即 macOS 的资源管理器）{% qnimg macos-dev-setup/1502459911.jpg %}，可以看到左边有一栏，里面有个应用程序（/Applications），应用程序放在这里的。然后 macOS 中，用户目录是`/Users/username`，而不是`/home/username`，这个需要注意。激活 Finder 的情况下，屏幕左上角会有一排菜单，这个菜单针对每个软件可能不同。一般软件的设置都是`软件名-偏好设置`中，或者使用`⌘+,`快捷键打开软件的偏好设置。在显示中是一些显示的选项，对于 Finder 可以打开显示标签页、路径、状态等
+2. 点击 Dock 上的 Finder（即 macOS 的资源管理器），可以看到左边有一栏，里面有个应用程序（/Applications），应用程序放在这里的。
 
-3. 如果前面触摸板中打开了 Launchpad 的手势，捏拢拇指与其他三个手指即可打开 Launchpad，或者点击 Dock 中的小火箭图标{% qnimg macos-dev-setup/1502460257.jpg %}，则能看到所有安装的应用程序，可以两个手指轻扫翻页。
+<img src="/images/macos-dev-setup/1502459911.jpg"  title="" alt=""/>
+然后 macOS 中，用户目录是`/Users/username`，而不是`/home/username`，这个需要注意。激活 Finder 的情况下，屏幕左上角会有一排菜单，这个菜单针对每个软件可能不同。一般软件的设置都是`软件名-偏好设置`中，或者使用`⌘+,`快捷键打开软件的偏好设置。在显示中是一些显示的选项，对于 Finder 可以打开显示标签页、路径、状态等
 
+3. 如果前面触摸板中打开了 Launchpad 的手势，捏拢拇指与其他三个手指即可打开 Launchpad，或者点击 Dock 中的小火箭图标，则能看到所有安装的应用程序，可以两个手指轻扫翻页。
+
+<img src="/images/macos-dev-setup/1502460257.jpg"  title="" alt=""/>
 ### 安装软件
 1. App Store 下载。App Store 中直接下载即可；
 2. 第三方下载安装。下载下来的软件一般是 dmg 格式的或者无格式（解压后）的。dmg 和 exe 类似，打开后，里面一般有个软件图标和一个 Application 文件夹，直接把软件图标拖到 Application 即可。或者直接把下载的无格式（如果是压缩文件，打开即可解压）拖到 Application 即可。
@@ -126,8 +130,7 @@ omf theme ocean
 
 当然也可以安装其他主题，去上面那个链接选选。。安装好后长这样：
 
-{% qnimg macos-dev-setup/1502463526.png title:Ocean主题  alt:Ocean主题 %}
-
+<img src="/images/macos-dev-setup/1502463526.png"  title="Ocean主题" alt="Ocean主题"/>
 
 
 ### ShadowsocksX
@@ -138,8 +141,7 @@ omf theme ocean
 
 [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) 是一个修改键位的软件，建议用它把 `caps lock`和`control`位置替换。因为大小写锁定占据了更好的位置，而 `control` 是更加频繁使用的一个按键，调换后更方便。
 
-{% qnimg macos-dev-setup/1502469911.jpg title:Karabiner-Elements alt:Karabiner-Elements %}
-
+<img src="/images/macos-dev-setup/1502469911.jpg"  title="Karabiner-Elements" alt="Karabiner-Elements"/>
 
 ### 其他软件
 

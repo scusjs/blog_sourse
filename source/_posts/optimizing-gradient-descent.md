@@ -17,8 +17,7 @@ categories: 深度学习
 
 梯度下降最直观的解释如图所示，在山上某处，沿着最陡的方向向下，直到能到达的最低点。
 
-{% qnimg optimizing-gradient-descent/1511081616.png title:梯度下降 width:500%}
-
+<img src="/images/optimizing-gradient-descent/1511081616.png" width="500" title="" alt=""/>
 虽然各个深度学习框架封装了若干常用的梯度下降算法，可以当做黑盒来使用，但是作为调参工程师，这些东西原理都不懂还怎么愉快的调参。
 
 对于一般线性回归函数，其假设为：
@@ -31,8 +30,7 @@ $$J_{train}(\theta)=\frac{1}{2m}\sum_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^{2}$
 
 我们假设参数$\theta$是二维的，下图为一个二维参数（$\theta_{0}$和$\theta_{1}$）组对应能量函数的可视化图：
 
-{% qnimg optimizing-gradient-descent/1511082983.png title:二维参数能量函数可视化图形 %}
-
+<img src="/images/optimizing-gradient-descent/1511082983.png"  title="" alt=""/>
 
 本文大概分为：基本的梯度下降算法和梯度下降优化算法。
 
@@ -56,8 +54,7 @@ $$\theta = \theta - \alpha\nabla_{\theta}{J(\theta)}$$
 
 这种方法，每更新一次参数，需要对整个数据集进行运算，十分缓慢并且非常占内存，而且不能实时在线更新参数。这是最原始的梯度下降方法。从迭代的次数上来看，BGD迭代的次数相对较少。其迭代的收敛曲线示意图可以表示如下：
 
-{% qnimg optimizing-gradient-descent/1511083675.png title:BGD收敛曲线 %}
-
+<img src="/images/optimizing-gradient-descent/1511083675.png"  title="" alt=""/>
 
 ## 随机梯度下降（Stochatic Gradient Decent, SGD）
 
@@ -77,8 +74,7 @@ $$\theta_{j} = \theta_{j} + \alpha(y^i - h_{\theta}(x^i))x_{j}^{i}$$
 
 随机梯度下降是通过每个样本来迭代更新一次，计算非常快并且适合线上更新模型。但是，SGD伴随的一个问题是噪音较BGD要多，使得SGD并不是每次迭代都向着整体最优化方向，在解空间的搜索过程看起来很盲目。其迭代的收敛曲线示意图可以表示如下：
 
-{% qnimg optimizing-gradient-descent/1511084284.png title:SGD收敛曲线 %}
-
+<img src="/images/optimizing-gradient-descent/1511084284.png"  title="" alt=""/>
 ## 小批量梯度下降（Mini-Batch Gradient Descent, MBGD）
 
 上述两种方法，BGD 样本多时，训练慢，占内存；SGD 找到的解却不如 BGD，并且干扰较大，不易于并行实现。而 MBGD 则是在二者之间找到一个平衡。它一次以小批量的训练数据计算目标函数的权重并更新参数。公式如下：
@@ -101,24 +97,21 @@ $$\theta = \theta - \alpha\nabla_{\theta}{J(\theta;x^{(i:i+n)},j^{(i:i+n)})}$$
 ## Momentum
 
 对于如图所示的损失函数等高线图：
-{% qnimg optimizing-gradient-descent/1511086529.jpg %}
-
+<img src="/images/optimizing-gradient-descent/1511086529.jpg"  title="" alt=""/>
 其中中心的蓝色点表示了最优值。如图我们可以知道，其在 Y 轴比较陡峭，在 X 轴比较平缓。如果我们使用普通的梯度下降方法，如果选取较小的学习效率，则其收敛的图像如下面的第一张图。可以看出我们从某个点出发，整体趋势向着最优点前进，但是其在 Y 轴变化比较快，但是在 X 轴的前进非常缓慢。如果我们增大学习效率，则如第二张图，在 Y 轴抖动非常明显：
 
-{% qnimg optimizing-gradient-descent/1511086899.jpg alt:较小学习速率 width:400%} {% qnimg optimizing-gradient-descent/1511086921.jpg  alt:较大学习速率 width:400%}
-
+<img src="/images/optimizing-gradient-descent/1511086899.jpg" width="400" title="较小学习速率" alt="较小学习速率"/>
+<img src="/images/optimizing-gradient-descent/1511086921.jpg" width="400" title="较大学习速率" alt="较大学习速率"/>
 在梯度下降算法中，如果学习速率选择较大，对于陡峭方向（维度）的优化，会来回的抖动，但是如果学习速率选择较小，那么对于平缓方向（维度），会异常缓慢，非常像下图：
 
-{% qnimg optimizing-gradient-descent/1511087223.jpg %}
-
+<img src="/images/optimizing-gradient-descent/1511087223.jpg"  title="" alt=""/>
 即上面所说的第三条，如果不同维度选择的学习速率一样，可能导致陡峭维度的收敛图像来回摆动。因此很显然，我们应该尽可能的约束掉这样的维度的学习，而尽可能的往我们的目标方向前进。
 
 ### 指数加权平均
 
 对于一组连续的数值，比如温度，可能变化（波动）较大，如下图的蓝色点。如果我们想要拟合温度，我们需要一个较为平缓的曲线（红色）。
 
-{% qnimg optimizing-gradient-descent/1511087506.jpg width=400%}
-
+<img src="/images/optimizing-gradient-descent/1511087506.jpg" width="400" title="" alt=""/>
 如何求得这个平缓的曲线呢？我们应该想到，尽可能的平均一下前后的温度。指数平均加权是这样的思路，一个时刻的值，与上一个时刻有关（二者的加权平均）。即：$V_t = \beta V_{t-1} + (1 - \beta)\theta_t$，这里，$\theta_t$表示 t 时刻的测量值（即蓝色的点），$V_{t-1}$表示上一个时刻的计算值（即红色曲线的上一个值），$\theta$为加权参数。
 
 ### Momentum 梯度下降
@@ -130,8 +123,7 @@ $$\theta = \theta - \alpha v_t$$
 
 其中$\gamma$通常设为0.9。由于目标函数在Y方向上摇摆，所以前后两次计算的梯度在Y方向上相反，所以相加后相互抵消，而X方向上梯度方向不变，所以X方向的梯度是累加的，其效果就是损失函数在Y方向上的震荡减小了，而更加迅速地从X方向接近最优点。如图所示：
 
-{% qnimg optimizing-gradient-descent/1511088235.jpg alt:momentum梯度下降 width:400%}
-
+<img src="/images/optimizing-gradient-descent/1511088235.jpg" width="400" title="momentum梯度下降" alt="momentum梯度下降"/>
 也可以把这个过程和在山坡放一个球让其滚下类比：当从山顶释放一个小球时，由于重力的作用小球滚下的速度会越来越快；与此类似，冲量的作用会使相同方向的梯度不断累加，不同方向的梯度相互抵消，其效果就是逼近最优点的速度不断加快。
 
 ## Nesterov Accelerated Gradient
@@ -197,12 +189,10 @@ $$\theta_{t+1} = \theta_t - \frac{\alpha}{\sqrt{\hat{v_t}} + \epsilon} \bigodot 
 
 如图所示，所有方法都从相同位置出发，经历不同的路径到达了最小点，其中Adagrad、Adadelta和RMSprop一开始就朝向正确的方向并且迅速收敛，而冲量、NAG则会冲向错误的方向，但是由于NAG会向前多“看”一步所以能很快找到正确的方向。 
 
-{% qnimg optimizing-gradient-descent/1511091783.jpg %}
-
+<img src="/images/optimizing-gradient-descent/1511091783.jpg"  title="" alt=""/>
 下图显示了这些方法逃离鞍点的能力，鞍点有部分方向有正梯度另一些方向有负梯度，SGD方法逃离能力最差，冲量和NAG方法也不尽如人意，而Adagrad、RMSprop、Adadelta很快就能从鞍点逃离出来。
 
-{% qnimg optimizing-gradient-descent/1511091841.jpg %}
-
+<img src="/images/optimizing-gradient-descent/1511091841.jpg"  title="" alt=""/>
 
 
 

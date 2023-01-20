@@ -36,17 +36,14 @@ Stream（流）是JDK8中引入的一种类似与迭代器（Iterator）的单�
 ## ForkJoinPool又是什么
 ForkJoinPool是在Java 7中引入了一种新的线程池，其简单类图如下：
 
-{% qnimg parallelstream-trap/15408857246400.jpg title:ForkJoinPool类图 alt:ForkJoinPool类图 %}
-
+<img src="/images/parallelstream-trap/15408857246400.jpg"  title="ForkJoinPool类图" alt="ForkJoinPool类图"/>
 可以看到ForkJoinPool是ExecutorService的实现类，是一种线程池。创建了ForkJoinPool实例之后，可以通过调用submit(ForkJoinTask<T> task) 或invoke(ForkJoinTask<T> task)方法来执行指定任务。
 ForkJoinTask表示线程池中执行的任务，其有两个主要的抽象子类：RecusiveAction和RecusiveTask。其中RecusiveTask代表有返回值的任务，而RecusiveAction代表没有返回值的任务。它们的类图如下：
 
-{% qnimg parallelstream-trap/15408861070245.jpg title:ForkJoinTask类图 alt:ForkJoinTask类图 %}
-
+<img src="/images/parallelstream-trap/15408861070245.jpg"  title="ForkJoinTask类图" alt="ForkJoinTask类图"/>
 ForkJoinPool来支持使用分治法(Divide-and-Conquer Algorithm)来解决问题，即将一个任务拆分成多个“小任务”并行计算，再把多个“小任务”的结果合并成总的计算结果。相比于ThreadPoolExecutor，ForkJoinPool能够在任务队列中不断的添加新任务，在线程执行完任务后可以再从任务列表中选择其他任务来执行；并且可以选择子任务的执行优先级，因此能够方便的执行具有父子关系的任务。ForkJoinPool内部维护了一个无限队列来保存需要执行的任务，而线程的数量则是通过构造函数传入，如果没有向构造函数中传入希望的线程数量，那么当前计算机可用的CPU数量会被设置为线程数量作为默认值（最大为MAX_CAP = 0x7fff）。
 
-{% qnimg parallelstream-trap/15408867028506.jpg %}
-
+<img src="/images/parallelstream-trap/15408867028506.jpg"  title="" alt=""/>
 ## 回过头来看ParallelStream原理
 运行如下代码：
 
@@ -75,12 +72,10 @@ public static void main(String[] args) {
 
 可以看出，串行的流使用的是main线程，而parallelStream使用了线程名为`ForkJoinPool.commonPool-worker-*`的线程，而这些线程来自于：
 
-{% qnimg parallelstream-trap/15408910215785.jpg title:ForkJoinPool common线程池创建 alt:ForkJoinPool common 线程池创建 %}
-
+<img src="/images/parallelstream-trap/15408910215785.jpg"  title="ForkJoinPool_common_线程池创建" alt="ForkJoinPool_common_线程池创建"/>
 `java.util.concurrent.ForkJoinPool#makeCommonPool`函数在ForkJoinPool类的静态方法块中别调用，返回结果赋值给一个静态成员元素common，这个common是Java 8中引入的一个通用的静态线程池，这个线程池用来处理那些没有被显式提交到任何线程池的任务，ParallelStream其实就是自动的使用了这个通用ForkJoinPool线程池来实现并行化。
 
-{% qnimg parallelstream-trap/15408899694768.jpg title:ForkJoinPool common线程池 alt:ForkJoinPool common 线程池 %}
-
+<img src="/images/parallelstream-trap/15408899694768.jpg"  title="ForkJoinPool_common_线程池" alt="ForkJoinPool_common_线程池"/>
 代码中可以看到，线程池数量取决于`parallelism`，而`parallelism`要么在3412、3419行中从环境变量中获得，要么在3435行被赋值为处理器数量减一，之后再判定如果其值小于0或者大于MAX_CAP，则取1或者MAX_CAP。注意这里，`parallelism < 0`，也就是如果启动jvm时候对其赋值为0，则会使用0作为参数进行线程池的创建。
 
 ## commonPool线程数好像不太对？

@@ -26,8 +26,7 @@ mathjax: true
 
 监督学习的目的在于学习一个由输入到输出的映射。
 
-{% qnimg statistical-learning-method/1477841307.png title: 监督学习问题 alt:监督学习问题 %}
-
+<img src="/images/statistical-learning-method/1477841307.png"  title="监督学习问题" alt="监督学习问题"/>
 # 统计学习的三要素
 ## 模型
 
@@ -87,8 +86,7 @@ $$R_{srm}(f)=\frac{1}{N}\sum_{i=1}^{N}L(y_i,f(x_i)) + \lambda J(f)$$
 
 过拟合通常是因为参数过多导致的。即模型越复杂，越容易发生过拟合。过拟合对训练样本的误差小，但是对测试样本的误差大。
 
-{% qnimg statistical-learning-method/1477882667.jpg title:训练误差与测试误差和模型复杂度的关系 alt:训练误差与测试误差和模型复杂度的关系 %}
-
+<img src="/images/statistical-learning-method/1477882667.jpg"  title="训练误差与测试误差和模型复杂度的关系" alt="训练误差与测试误差和模型复杂度的关系"/>
 # 正则化
 
 正则化有如下形式：

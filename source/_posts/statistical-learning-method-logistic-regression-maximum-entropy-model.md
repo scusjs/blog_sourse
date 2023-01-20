@@ -24,8 +24,7 @@ $$f(x) = F'(x) = \frac{e^{-(x-\mu) / \gamma}}{\gamma (1+e^{-(x-\mu) / \gamma})^2
 
 其中$\mu$为位置参数；$\gamma > 0$为形状参数，值越小，分布越集中于$\mu$附近。其分布的密度函数与分布函数如图：
 
-{% qnimg statistical-learning-method/1499954622.jpg title:逻辑斯谛分布的密度函数与分布函数 alt:逻辑斯谛分布的密度函数与分布函数 %}
-
+<img src="/images/statistical-learning-method/1499954622.jpg"  title="逻辑斯谛分布的密度函数与分布函数" alt="逻辑斯谛分布的密度函数与分布函数"/>
 
 二项逻辑斯谛回归模型是如下的条件概率分布：
 

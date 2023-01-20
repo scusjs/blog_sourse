@@ -60,24 +60,19 @@ Content-Type: text/plain
 
 前面说了，浏览器在跨域访问时，会自动加上一个`Origin`头部来标注来源，这也是后端识别跨域访问的判定标准。而我在写 js 时（嗯我就是前端渣，不然咋会掉坑），域名没有加上协议，即 `https://`或者`//`，尽管浏览器给了我提示，然而我瞎了，而且还认为是浏览器 bug 换了一堆浏览器。
 
-{% qnimg cross-domain-debug-record/1521556978.jpg title:浏览器对于协议缺失的报错 alt:浏览器对于协议缺失的报错 width:600 %}
-
+<img src="/images/cross-domain-debug-record/1521556978.jpg" width="600" title="浏览器对于协议缺失的报错" alt="浏览器对于协议缺失的报错"/>
 ## Postman 的坑
 
 这下来了让我当时无比懵逼的一个坑了，就是我的 Postman 是 app 版本（Mac）的，我室友的是 Chrome 的应用版，而Chrome 应用版本的Postman在请求时，会加上一个`Origin`字段，而 app 版的不会，因此这也算为啥我室友电脑上没事╭(╯^╰)╮
 
-{% qnimg cross-domain-debug-record/1521557592.png title:Chrome应用版postman alt:Chrome应用版postman width:600 %}
-
-{% qnimg cross-domain-debug-record/1521558256.jpg title:app版postman alt:app应用版postman width:600 %}
-
+<img src="/images/cross-domain-debug-record/1521557592.png" width="600" title="Chrome应用版postman" alt="Chrome应用版postman"/>
+<img src="/images/cross-domain-debug-record/1521558256.jpg" width="600" title="app应用版postman" alt="app应用版postman"/>
 从上面两个图可以看出，不同版本的 postman 发送的请求头部会有不同。
 
 ## Spring中CORS相关操作
 
 Spring 中，检查是否是CORS只是看`Origin`头部，即完全按照W3C标准。Spring 通过`org.springframework.web.cors`中的`CorsUtils.isCorsRequest`来判断，如下图。
-{% qnimg cross-domain-debug-record/1521558645.jpg title:Spring中判断CORS alt:Spring中判断CORS width:600 %}
-
+<img src="/images/cross-domain-debug-record/1521558645.jpg" width="600" title="Spring中判断CORS" alt="Spring中判断CORS"/>
 对于 CORS 的各种操作，会在`org.springframework.web.cors`中进行，比如在`org.springframework.web.cors.reactive`中的`DefaultCorsProcessor。handleInternal`对 CORS 请求的返回进行各种校验并且添加头部操作，如下图。
-{% qnimg cross-domain-debug-record/1521558994.jpg title:Spring中添加CORS头 alt:Spring中添加CORS头 width:600 %}
-
+<img src="/images/cross-domain-debug-record/1521558994.jpg" width="600" title="Spring中添加CORS头" alt="Spring中添加CORS头"/>
 anyway，总结一下这次的坑，首先是自己懒没看CORS详细的规范，以及习惯性的自己用错了都加上跨域的头部；其次是自己傻ajax写错了，导致一直以为是后端代码的问题；最后是postman太坑，室友的电脑上正常我的电脑错误，导致我懵逼了半天。嗯就这样。

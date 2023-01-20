@@ -29,8 +29,7 @@ knn 实际使用的模型对应于对特征空间的划分。模型由三个要�
 
 相当于在特征空间中划分一些子空间，判断新输入落入哪个子空间中即可。knn 中，k 为1叫做最近邻。这时候对每个训练集实例点划分一个区域（单元），如图：
 
-{% qnimg statistical-learning-method/1478078547.jpg title:k近邻法的模型对应特征空间的一个划分 alt:k近邻法的模型对应特征空间的一个划分 %}
-
+<img src="/images/statistical-learning-method/1478078547.jpg"  title="k近邻法的模型对应特征空间的一个划分" alt="k近邻法的模型对应特征空间的一个划分"/>
 对于 knn，距离度量是一个比较关键的因素，一般使用欧式距离，也可能使用其他距离。对于两点$x_i,x_j\in \mathcal{X}$，其距离定义为：
 
 $$L_p(x_i,x_j)=(\sum \limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^p)^{\frac{1}{p}}$$
@@ -41,8 +40,7 @@ $$L_{\infty}(x_i,x_j)=\max \limits_l|x_i^{(l)}-x_j^{(l)}|$$
 
 不同的距离度量所确定的最近邻点是不同的。如图：
 
-{% qnimg statistical-learning-method/1478081508.jpg title:L_p距离间的关系 alt:L_p距离间的关系 %}
-
+<img src="/images/statistical-learning-method/1478081508.jpg"  title="L_p距离间的关系" alt="L_p距离间的关系"/>
 其次，k 值的选择对结果影响也很大。k 较小时，近似误差小，但是估算误差大，噪声对其影响大，模型复杂，容易过拟合；k 较大时，可减小估算误差，但是近似误差大，模型变得简单。在应用时，取较小 k 的值，通过交叉验证来选取合适的值。
 
 knn 的分类策略往往是多数表决，其等价于经验风险最小化。

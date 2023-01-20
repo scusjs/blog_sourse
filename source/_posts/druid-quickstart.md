@@ -22,16 +22,14 @@ tags:
 > 早期的Druid有读立的Realtime节点，它们从Kafka或者Rabbit拉回数据，本地索引这些数据，并且周期性的分为数据段再发送给Historical节点。这种方式相当简单并且易于扩展。但是这将导致让Kafka有高可用性变得相当困难，因为高层的消费者没有提供扩展复制者组的功能，也会导致当有很多节点时管理相当困难，因为每一个节点都需要独立的配置文件。因此使用replication，从kafka拉回数据，并且推送到druid。[参考这里](https://groups.google.com/forum/#!searchin/druid-development/fangjin$20yang$20%22thoughts%22/druid-development/aRMmNHQGdhI/muBGl0Xi_wgJ)
 
 druid简单的架构图如下，该图展示了查询、数据流是如何通过Druid的：
-{% qnimg 14591361559273.jpg title:Druid架构图 alt:Druid架构图 %}
-所有的节点都以对等无共享集群或者热插拔故障转移节点的方式运行，来保证高可用性。此外，这个系统还包含三个依赖组件：
+<img src="/images/druid-quickstart/14591361559273.jpg"  title="Druid架构图" alt="Druid架构图"/>所有的节点都以对等无共享集群或者热插拔故障转移节点的方式运行，来保证高可用性。此外，这个系统还包含三个依赖组件：
 
 *	ZooKeeper集群，负责集群服务发现和维持当前数据拓扑
 *	元数据存储实例（metadata storage instance），用于对应用于系统的数据段的元数据维护
 *	Deep Storage LOB（Large Object）存储/文件系统，存储数据段
 
 下图演示集群的管理层，表示了某些节点和依赖组件是怎么通过追踪和交换元数据来帮助管理集群的。
-{% qnimg 14591373994615.jpg title:Druid管理层 alt:Druid管理层%}
-
+<img src="/images/druid-quickstart/14591373994615.jpg"  title="Druid管理层" alt="Druid管理层"/>
 
 
 ## 环境要求

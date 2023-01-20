@@ -15,8 +15,7 @@ tags:
 索引服务的示意图如下：
 
 
-{% qnimg 14605158741221.png title:Druid Indexing Service alt:Druid Indexing Service %}
-
+<img src="/images/druid-indexing-service/14605158741221.png"  title="Druid_Indexing_Service" alt="Druid_Indexing_Service"/>
 ## Overlord节点
 
 Overlord节点负责接收任务，负责任务的分配，对任务加锁，向调用者返回任务状态。Overlord有两种模式：本地模式或者远程模式。其中本地模式是默认模式。在本地模式下Overlord也负责创建Peon来执行任务，所有的Middle Manager和Peon的配置此时也应当被提供，这种模式一般用于普通的工作流。远程模式中，Overlord和Middle Manager运行在不同的进程中，也可以在不同服务器上运行，如果想让索引服务成为Druid索引的单一端点，推荐使用这种模式。
